@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.cards {
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  max-width: 16%;
+  margin: 30px auto;
+}
+
+.nav-links {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: cadetblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 14%;
+  margin: 30px auto;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.add-friend {
+  display: flex;
+  flex-direction: column;
+  max-width: 14%;
+  margin: 30px auto;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 6px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
